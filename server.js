@@ -7,7 +7,10 @@ const recipeControllers = require("./api/recipe.controllers");
 
 const app = express();
 
-const dataBaseURL = process.env.DB_URL || "mongodb://localhost:27017";
+// const dataBaseURL = process.env.DB_URL || "mongodb://localhost:27017";
+const dataBaseURL = process.env.DB_URL ||"mongodb+srv://herodeed:Dragongokan1@cluster0.owvsu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
+
 
 mongoose
   .connect(dataBaseURL, { useNewUrlParser: true })
