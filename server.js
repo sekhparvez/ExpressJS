@@ -7,8 +7,8 @@ const recipeControllers = require("./api/recipe.controllers");
 
 const app = express();
 
-// const dataBaseURL = process.env.DB_URL || "mongodb://localhost:27017";
-const dataBaseURL = process.env.DB_URL ||"mongodb+srv://herodeed:Dragongokan1@cluster0.owvsu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const dataBaseURL = process.env.DATABASE || "mongodb://localhost:27017";
+// const dataBaseURL = process.env.DB_URL ||"mongodb+srv://daniel:dd2345@recipescluster.anocj.mongodb.net/Sekh?retryWrites=true&w=majority"
 
 
 
